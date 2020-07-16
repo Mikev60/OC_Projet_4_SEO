@@ -1,0 +1,8 @@
+minifier javascript et css
+
+alt img partout
+
+Vérifier accessibilité via utilisation tab + aria label sur tous les liens -- FAIT
+vérifier les focus -- FAIT
+Corriger les contrastes -- FAIT
+changer couleur pour gris anthracite -- FAIT

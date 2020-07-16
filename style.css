@@ -12,7 +12,10 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.black {
+  color:black;
+  font-size:16px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -46,6 +49,7 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    margin:auto;
 }
 
 .bloc-md {
@@ -54,6 +58,7 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+    margin:auto;
 }
 
 .bg-center,
@@ -70,6 +75,10 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
+}
+.page-container {
+  margin: auto;
+  width: 100%;
 }
 
 .bg-repeat {
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -707,6 +716,20 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+.h2Index {
+  width:613px;
+  margin:auto;
+}
+.contenuAvis {
+  width:613px;
+  margin:auto;
+  font-size:20px;
+}
+.auteurAvis {
+  width:613px;
+  margin:auto;
+  font-size:13px;
 }
 
 h3 {
@@ -770,16 +793,19 @@ h4 {
     background-color: #364577;
 }
 
+.bgc-atomic-tangerine2 {
+    background-color: #685956;
+}
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #685956;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +848,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -837,6 +863,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -908,6 +935,11 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    .h2Index, .contenuAvis, .auteurAvis {
+      width:80%;
+      margin:auto;
+    }
+
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -981,6 +1013,7 @@ h4 {
     .bloc-xl,
     .bloc-lg {
         padding: 40px 0;
+        margin:auto;
     }
     .bloc-sm,
     .bloc-md {
