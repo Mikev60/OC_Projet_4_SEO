@@ -14,7 +14,7 @@ button {
 }
 .black {
   color:black;
-  font-size:16px;
+  font-size:24px;
 }
 a:hover {
     text-decoration: none;
@@ -660,7 +660,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -802,6 +802,9 @@ h4 {
 
 .tc-white {
     color: white!important;
+}
+.tc-black {
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
